@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-cont">
+      <div class="wrap">
+        <form action="">
+          <h1>Foydalanuvchi</h1>
+          <div class="box">
+            <input id="name" type="text" placeholder="Ism" required />
+          </div>
+          <div class="box">
+            <input id="age" type="number" placeholder="Yosh" required />
+          </div>
+          <div class="box">
+            <select id="gen" aria-placeholder="Jins">
+              <option value="Erkak">Erkak</option>
+              <option value="Ayol">Ayol</option>
+            </select>
+          </div>
+          <button id="btn" type="button" class="btn">Qo‘shish</button>
+        </form>
+      </div>
+
+      <div class="list">
+        <h2>Ro'yxat</h2>
+        <div id="cards">
+          <!-- Cards here -->
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="html-elements.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
